@@ -28,3 +28,69 @@ nav{
   justify-content: space-between;
   padding: 20px 0;
 }
+
+h1, h2, p {
+  margin: 4px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.sub-text {
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+header .info-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+header .image-container{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+header .image-container img{
+  height: 100%;
+}
+
+header .threads-info{
+  background-color: rgb(160, 159, 159);
+  color: rgb(75, 75, 75);
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 20px;
+}
+
+button.primary{
+  border: rgb(160, 159, 159) 1px solid;
+  background-color: transparent;
+  padding: 7px;
+  margin: 15px 0;
+  border-radius:  7px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+.button-container button{
+  border: none;
+  background-color: transparent;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+  width: 50%;
+  border-bottom: grey solid 1px;
+}
+
+.button-container button.current {
+  border-bottom: rgb(214, 211, 211) solid 2px;
+}

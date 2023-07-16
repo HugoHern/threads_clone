@@ -16,7 +16,19 @@ const Header = () => {
       </div>
       <p>bio</p>
       <div className="sub-info-container">
-        <p className="sub-text">X followers</p>
+        <p className="sub-text">
+          X followers / <a href="www.google.com">link</a>
+        </p>
+      </div>
+      <button
+        className="primary"
+        onClick={() => navigator.clipboard.writeText("www.google.com")}
+      >
+        Share Profile
+      </button>
+      <div className="button-container">
+        <button>Threads</button>
+        <button>replies</button>
       </div>
     </header>
   );
