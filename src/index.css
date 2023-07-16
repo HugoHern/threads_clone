@@ -94,3 +94,62 @@ button.primary{
 .button-container button.current {
   border-bottom: rgb(214, 211, 211) solid 2px;
 }
+
+.feed-card .icons svg {
+  height: 20px;
+  padding: 0 5px;
+}
+
+.feed-card{
+  border-bottom: 1px solid white;
+  padding: 10px 0;
+}
+
+.feed-card .text-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed-card .image-container{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden ;
+}
+
+.feed-card .image-container img{
+  height: 100%;
+}
+
+.feed {
+  height: 400px;
+  overflow-x: scroll;
+
+}
+
+input {
+  background: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+}
+input:focus{
+  outline: none;
+}
+
+.popup{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 650px;
+  width: 380px;
+  border-radius: 40px;
+  background-color: rgb(58, 53, 53);
+  padding-block-start: 20px;
+  overflow-y: scroll;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px;
+}

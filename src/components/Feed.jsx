@@ -4,6 +4,11 @@ const Feed = () => {
   return (
     <div className="feed">
       <Thread />
+      <Thread />
+      <Thread />
+      <Thread />
+      <Thread />
+      <Thread />
     </div>
   );
 };
