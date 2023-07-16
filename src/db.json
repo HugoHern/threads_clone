@@ -1,0 +1,138 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "user_uuid":"a2070e66-1956-4fd2-8335-b014d1831e0c" ,
+            "username": "Hugo",
+            "handle": "Sunk",
+            "bio": "likes fish",
+            "link": "http://www.google.com",
+            "image": "https://i.imgur.com/MBorxly.jpeg",
+            "instagram_url": "https://www.instagram.com/aniakubow/?hl=en",
+            "followers": [
+                {
+                    "user_uuid": "1a074978-240e-11ee-be56-0242ac120002"
+                },
+                {
+                    "user_uuid": "26b6854e-240e-11ee-be56-0242ac120002"
+                },
+                {
+                    "user_uuid": "31572b02-240e-11ee-be56-0242ac120002"
+                }
+            ]
+
+        },
+        {
+            "id": 2,
+            "user_uuid":"8e7278dc-240e-11ee-be56-0242ac120002" ,
+            "username": "Noah",
+            "handle": "Goku",
+            "bio": "likes anime",
+            "link": "http://www.google.com",
+            "image": "https://i.imgur.com/uOxQsyZ.jpeg",
+            "instagram_url": "https://www.instagram.com/aniakubow/?hl=en",
+            "followers": [
+                {
+                    "user_uuid": "1a074978-240e-11ee-be56-0242ac120002"
+                },
+                {
+                    "user_uuid": "26b6854e-240e-11ee-be56-0242ac120002"
+                },
+                {
+                    "user_uuid": "31572b02-240e-11ee-be56-0242ac120002"
+                }
+            ]
+
+        },
+        {
+            "id": 3,
+            "user_uuid":"f0fcd7f4-240e-11ee-be56-0242ac120002" ,
+            "username": "Jr",
+            "handle": "Vegeta",
+            "bio": "likes skating",
+            "link": "http://www.google.com",
+            "image": "https://i.imgur.com/nLuJqls.jpeg",
+            "instagram_url": "https://www.instagram.com/aniakubow/?hl=en",
+            "followers": [
+                {
+                    "user_uuid": "1a074978-240e-11ee-be56-0242ac120002"
+                },
+                {
+                    "user_uuid": "26b6854e-240e-11ee-be56-0242ac120002"
+                }
+            
+            ]
+
+        }
+
+    ],
+    "threads":[
+        {
+            "id": 1,
+            "timestamp": "Sun Jul 16 2023 15:33:14 GMT-0400 (Eastern Daylight Time)",
+            "thread_from" : "a2070e66-1956-4fd2-8335-b014d1831e0c",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "hello world!",
+            "likes": [
+                {
+                    "uuid": "8e7278dc-240e-11ee-be56-0242ac120002"
+                },
+                {
+                    "uuid": "f0fcd7f4-240e-11ee-be56-0242ac120002"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "timestamp": "Sun Jul 16 2023 16:33:14 GMT-0400 (Eastern Daylight Time)",
+            "thread_from" : "f0fcd7f4-240e-11ee-be56-0242ac120002c",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "hello rockers!",
+            "likes": [
+                {
+                    "uuid": "8e7278dc-240e-11ee-be56-0242ac120002"
+                }
+       
+            ]
+        },
+        {
+            "id": 3,
+            "timestamp": "Sun Jul 16 2023 20:33:14 GMT-0400 (Eastern Daylight Time)",
+            "thread_from" : "a2070e66-1956-4fd2-8335-b014d1831e0c",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "hello world again!",
+            "likes": [
+                {
+                    "uuid": "8e7278dc-240e-11ee-be56-0242ac120002"
+                }
+       
+            ]
+        },
+        {
+            "id": 4,
+            "timestamp": "Sun Jul 16 2023 20:33:14 GMT-0400 (Eastern Daylight Time)",
+            "thread_from" : "8e7278dc-240e-11ee-be56-0242ac120002",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "anime is cool!",
+            "likes": []
+            
+        },
+        {
+            "id": 5,
+            "timestamp": "Sun Jul 16 2023 20:33:14 GMT-0400 (Eastern Daylight Time)",
+            "thread_from" : "a2070e66-1956-4fd2-8335-b014d1831e0c",
+            "thread_to": "8e7278dc-240e-11ee-be56-0242ac120002",
+            "reply_to": 4,
+            "text": "I also think anime is cool!",
+            "likes": []
+            
+        }
+
+        
+        
+    ]
+}
